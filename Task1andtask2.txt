@@ -1,0 +1,59 @@
+Task 1
+1. What do you mean by Git and Github? 
+Ans. 
+Git is a distributed version control system. It keeps all history record of the project . It has a key features called collaboration which allows two or more people to work on the same project at the same time. It helps us to work locally on the project.
+Github is a web cider or web service which provides a web based graphical interface to perform git tasks. 
+
+2. Why github is so popular and used in most of the projects? 
+Ans: github is so popular because it provides cloud storage code and it collaborates different data from different people and then push it to central repository. It provides easy code hosting and easy work management.
+
+3. What is version control system? How is git a VCS? 
+Ans: Version control system helps in keeping the track of the work and changes made in the project and allow various members to work on same project and also helps in making changes in previous version.Git is a distributed version control system as it allows the user to keep a local repository of their work in their local system. 
+
+4. What are other platforms similar to Github? 
+Ans: Bitbucket
+        Launchpad
+        SourceForge
+        Gitlab
+
+5. Why are you interested in learning of git and github? 
+Ans: because I want to explore myself to the new things and I think git is quite interesting.
+
+
+
+Task 2
+
+a) How git workflow works?
+
+Ans- It works in four parts:-
+1) workspace
+2) Index
+3) local repository
+4) remote repository
+Workspace is a working directory. It is a local directory
+Git works on four fundamental elements 
+   1.Workspace-working directory
+   2.Index -project is added and ready to be       commited
+   3.Local Repository-it resides in our systems and contains all the files with their commit history
+   4.Remote Repository-repository on the server to    which every member will have access
+
+There is only one central repository. Git allows various members to work on same project and also help in making changes in previous version.
+
+b) what are the different stages of a got project as commit, add?
+Ans . Stages are as follows:-
+          Untracked
+          Commit
+           Stage
+
+1) untracked: at this stage the file exists but it is not initialised in git. 
+     2) staged:git add- this command tracks the new changes. This is the stage prior to commit. 
+     3) commit: this is the stage where changes are mentioned.  This tracks the changes made in local repository. 
+
+c. Is it possible to do a git commit before git add . if you have made any changes? Explain why?
+No, it is possible to do a git commit before git add as because we have to do git add first to save all the changes made in a file and after that we can do git commit.
+
+d. Why is git diff used?
+  Git diff is used to see a desired file after making changes in previous file.
+
+e. Can we leave the commit message as blank?
+Yes, we can leave commit message as a blank. But generally git requires a non - empty message because providing a meaningful commit message is a part of good practice.
